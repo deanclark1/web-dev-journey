@@ -17,4 +17,10 @@ div {
     box-sizing: border-box;
     border: 4px dashed black;
     border-left-style: dotted;
+    
+}
+.four {
+    padding: 2rem;
+    border: 2px solid blue;
+    margin: 2rem;
 }
