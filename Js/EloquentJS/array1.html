@@ -26,18 +26,23 @@
 
   </body>
   <script>
+
     // Add your code here
-    let myArray = ['Rice', 'Fufu', 'Banku', 'Fried yam'];
+    let myArray = ['Dean', 'Fati', 'Anita'];
+
+    myArray[0] = 'Kafui';
+    myArray[1] = 'Golda';
+    myArray.unshift('Joyce');
 
 
     // Don't edit the code below here!
 
-    const section = document.querySelector('section');
-
+    section.innerHTML = ' ';
     let para1 = document.createElement('p');
     para1.textContent = `Array: ${ myArray }`;
 
     section.appendChild(para1);
+    
   </script>
 
 </html>
