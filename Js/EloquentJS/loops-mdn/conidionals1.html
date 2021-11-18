@@ -19,18 +19,27 @@
 </head>
 <body>
     <script>
+        
         let season = 'summer';
         let response;
 
         // Add your code here
+        switch(season) {
+            case 'summer':
+                response = "Please wear summer shorts when stepping outside";
+            break;
+            case 'winter':
+                response = 'Wear jackets because it is cold';
+                break;	
+        }
 
         // Don't edit the code below here!
 
-        const section = document.querySelector('section');
-
+        section.innerHTML = ' ';
         let para1 = document.createElement('p');
         para1.textContent = response;
         section.appendChild(para1);
+            
     
     </script>
     
